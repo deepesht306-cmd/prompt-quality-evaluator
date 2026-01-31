@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Prompt Quality Evaluator",
+  "description": "Evaluates the quality of prompts typed into LLM interfaces.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
