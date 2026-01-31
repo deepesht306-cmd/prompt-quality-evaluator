@@ -43,16 +43,18 @@ git clone https://github.com/deepesht306-cmd/prompt-quality-evaluator.git
 ### Step 2: Open Chrome Extensions page
 Go to:
 
- - chrome://extensions
+```bash
+chrome://extensions
+```
 
-## Step 3: Enable Developer Mode
+### Step 3: Enable Developer Mode
 Turn ON the Developer mode toggle (top-right corner)
 
 ### Step 4: Load the extension
 Click Load unpacked
 Select the extension/ folder from the project
 
-# 📁 Important:
+## 📁 Important:
 Do NOT select the root project folder.
 Select only the extension directory.
 
@@ -62,15 +64,15 @@ Start typing a prompt
 A quality badge appears below the input box
 Click the badge to view improvement suggestions
 
-# ⌨️ Controls
+## ⌨️ Controls
 Ctrl + Q → Toggle the extension ON / OFF
 
-# 🔄 Updating the Extension
+## 🔄 Updating the Extension
 If you pull new updates:
-Go to chrome://extensions
-Click Reload on the extension card
+- Go to chrome://extensions
+- Click Reload on the extension card
 
-# 🧪 How It Works
+## 🧪 How It Works
 The extension detects user input inside ChatGPT
 The prompt is evaluated after typing stops (debounced)
 The backend scores:
@@ -81,23 +83,23 @@ The backend scores:
 Results are sent back to the extension
 A contextual badge and suggestion tooltip are displayed
 
-# 🔐 Privacy & Ethics
-Prompts are not stored
-No user data is collected
-Evaluation focuses on question structure, not user intelligence
-Suggestions are advisory, not prescriptive
+## 🔐 Privacy & Ethics
+- Prompts are not stored.
+- No user data is collected.
+- Evaluation focuses on question structure, not user intelligence.
+- Suggestions are advisory, not prescriptive.
 
-# 📌 Project Status
+## 📌 Project Status
 MVP Complete – Actively usable
 
-# Planned future improvements:
-Chrome Web Store publishing
-Settings panel
-Multi-LLM support
-UI customization
+## Planned future improvements:
+- Chrome Web Store publishing.
+- Settings panel.
+- Multi-LLM support.
+- UI customization.
 
-# 🙌 Acknowledgements
+## 🙌 Acknowledgements
 Built as a learning-focused AI product combining:
-Backend API design
-Browser extension architecture
-UX-driven AI feedback
+- Backend API design
+- Browser extension architecture
+- UX-driven AI feedback
